@@ -1,0 +1,7 @@
+mlx_init()	Maakt verbinding met de X-server
+mlx_new_window	Maakt een venster
+mlx_key_hook()	Registreert een callback voor toetsenbordgebeurtenissen
+mlx_loop()	Start de event loop (venster blijft actief)
+XK_Escape	Keysym voor de Escape-toets
+exit(1)	Stopt het programma direct
+mlx_destroy_*	Ruimt netjes op (window, display, pointer)
